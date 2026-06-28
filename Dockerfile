@@ -18,7 +18,6 @@ RUN mvn dependency:go-offline -B
 
 # Copy source code and config
 COPY ./src ./src
-COPY application.properties ./src/main/resources/application.properties
 
 # Build the JAR (skip tests here; tests run in the CI pipeline separately)
 RUN mvn clean package -DskipTests
