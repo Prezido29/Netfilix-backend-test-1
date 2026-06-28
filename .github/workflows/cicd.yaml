@@ -70,4 +70,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           # GHA cache: avoids rebuilding unchanged layers on every run
           cache-from: type=gha
-          cache-to: type=gha,mode=max
+          cache-to: type=gha,mode=maxh
