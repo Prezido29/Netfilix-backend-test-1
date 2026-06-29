@@ -33,5 +33,5 @@ build/
 .vscode/
 
 ### Environment ###
-src/main/resources/.env
+#src/main/resources/.env
 src/main/resources/application.properties
